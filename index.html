@@ -7,11 +7,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
+
 	<title>Movie Factory</title>
 	
 </head>
 <body>
-<header id="header" class="">
+<header id="header" class="header">
 	Movie Factory
 </header><!-- /header -->
 <nav class="navbar navbar-dark bg-grey">
@@ -20,14 +21,21 @@
   </span>
 </nav>
 
-<input type="button" value="Count" id="countButton" />
+<input type="button" value="Count" id="countButton"/>
 
 <p>The button was pressed <span id="displayCount">0</span> times.</p>
 
 
-<h1>Movies</h1>
-	<button type="text">Sort</button>
+	<h1 class="d-flex justify-content-center">Movies</h1>
+	<p class="d-flex justify-content-end">
+		<button type="text" class="mr-4" id="btn-sort">Sort</button>
+	</p>
+
 <div id="movies-container">
+	
+</div>
+
+<div class="test">
 	
 </div>
 

@@ -7,16 +7,39 @@ $ter-col: #434343;
 $font1:#D3D3D3;
 
 body {
-	background-color: blue;
+	background-color: $prim-col;
 	color: $font1; 
+
 }
 
 header {
 	background-color: $sec-col;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
 }
 
-nav, footer {
+nav{
 	background-color: $ter-col;
+	font-weight: bold;
+
+}
+
+footer{
+	background-color: $ter-col;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+#btn-sort{
+	background-color: $prim-col;
+	color: $font1;
+	border: 0;
 }
 
 

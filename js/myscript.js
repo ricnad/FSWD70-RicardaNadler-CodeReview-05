@@ -27,22 +27,34 @@ var oddmovies = [];
     	<div class="container">
          <div class="row">
             <div class="col-5 alert bg-dark">
-                <img src="${evenmovies[i].poster}" class="img-fluid float-left pr-3" width=50% height=auto alt="${evenmovies[i].name}">
+                <img src="${evenmovies[i].poster}" class="img-fluid float-left pr-3" width=50% height=100% alt="${evenmovies[i].name}">
     			   <h4>${evenmovies[i].name} </h4>
     	   		    ${evenmovies[i].description}
+                <p class="d-flex justify-content-end">
+                    <button class="m-1 bg-dark border-0"><i class="fa fa-thumbs-up text-success"> Like</i></button>
+                    <i class="fa fa-circle text-success" style="font-size:48px"></i>
+                </p>
             </div>
             <div class="col-1">
             </div>
             <div class="col-5 alert bg-dark">
-                <img src="${oddmovies[i].poster}" class="img-fluid float-left pr-3" width=50% height=auto alt="${oddmovies[i].name}">
-                <h4>${oddmovies[i].name} </h4>
-                ${oddmovies[i].description}              
+                <img src="${oddmovies[i].poster}" class="img-fluid float-left pr-3" width=50% height=100% alt="${oddmovies[i].name}">
+                    <h4>${oddmovies[i].name} </h4>
+                    ${oddmovies[i].description}
+                <p class="d-flex justify-content-end">
+                    <button class="m-1 bg-dark border-0"><i class="fa fa-thumbs-up text-success"> Like</i></button>
+                    <i class="fa fa-circle text-success" style="font-size:48px"></i>
+                </p>              
             </div>
         </div>
 	   	</div>			
     		`;
     };
 
+    $(".test").load(function(){
+    var newbutton = $('<i class="fa fa-thumbs-up text-success"> Like</i>')
+            $('.test').append(newbutton);
+});
 
 })
 
