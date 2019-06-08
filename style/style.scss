@@ -1,0 +1,22 @@
+//Colors
+$prim-col: #171E24;
+$sec-col:#000000;
+$ter-col: #434343;
+
+//Font-Colors
+$font1:#D3D3D3;
+
+body {
+	background-color: blue;
+	color: $font1; 
+}
+
+header {
+	background-color: $sec-col;
+}
+
+nav, footer {
+	background-color: $ter-col;
+}
+
+

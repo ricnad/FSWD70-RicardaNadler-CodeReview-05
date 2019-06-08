@@ -1,0 +1,8 @@
+movies=`[
+	{"name": "A star is born", "description": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.", "poster": "img/star.jpg", "id":"btn1"},
+	{"name": "Halloween", "description": "Laurie Strode confronts her long-time foe Michael Myers, the masked figure who has haunted her since she narrowly escaped his killing spree on Halloween night four decades ago.", "poster": "img/halloween.jpg", "id":"btn2"},
+	{"name": "First Man", "description": "A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.", "poster": "img/first_man.jpg", "id":"btn3"},
+	{"name": "Aladdin", "description": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.", "poster": "img/aladdin.jpg", "id":"btn4"},
+	{"name": "Rocketman", "description": "A musical fantasy about the fantastical human story of Elton John's breakthrough years.", "poster": "img/rocketman.jpg", "id":"btn5"},
+	{"name": "Avengers: Endgame", "description": "fter the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.", "poster": "img/avengers.png", "id":"btn6"}
+]`;
